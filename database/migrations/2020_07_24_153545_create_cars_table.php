@@ -16,6 +16,10 @@ class CreateCarsTable extends Migration
         Schema::create('cars', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('vehicle_registration_number', 15)->unique();
+            $table->string('brand');
+            $table->integer('capcity');
+            $table->integer('rental_cost');
         });
     }
 

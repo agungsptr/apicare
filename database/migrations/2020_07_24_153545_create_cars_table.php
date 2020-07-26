@@ -18,7 +18,7 @@ class CreateCarsTable extends Migration
             $table->timestamps();
             $table->string('vehicle_registration_number', 15)->unique();
             $table->string('brand');
-            $table->integer('capcity');
+            $table->integer('capacity');
             $table->integer('rental_cost');
         });
     }

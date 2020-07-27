@@ -42,3 +42,11 @@ Route::group(['prefix' => 'customer'], function () {
     Route::delete('/{id}', 'CustomerController@delete');
 });
 
+Route::group(['prefix' => 'rental'], function () {
+    Route::get('/', 'RentalController@index');
+    Route::get('/{id}', 'RentalController@show');
+    Route::post('/', 'RentalController@store');
+    Route::put('/{id}', 'RentalController@update');
+    Route::delete('/{id}', 'RentalController@delete');
+});
+

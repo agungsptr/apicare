@@ -53,8 +53,11 @@ class Handler extends ExceptionHandler
     public function render($request, Throwable $exception)
     {
         if ($exception instanceof ModelNotFoundException) {
+            $model = str_replace("App\\", '', $exception->getModel());
+            $model = str_replace("Model\\", '', $model);
+
             return response()->json([
-                'error' => 'Entry for ' . str_replace('App\\', '', $exception->getModel()) . ' not found'
+                "error" => "Entry for " . $model . " not found"
             ], 404);
         }
 

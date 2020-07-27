@@ -25,3 +25,20 @@ Route::group(['prefix' => 'user'], function () {
     Route::put('/{id}', 'UserController@update');
     Route::delete('/{id}', 'UserController@delete');
 });
+
+Route::group(['prefix' => 'car'], function () {
+    Route::get('/', 'CarController@index');
+    Route::get('/{id}', 'CarController@show');
+    Route::post('/', 'CarController@store');
+    Route::put('/{id}', 'CarController@update');
+    Route::delete('/{id}', 'CarController@delete');
+});
+
+Route::group(['prefix' => 'customer'], function () {
+    Route::get('/', 'CustomerController@index');
+    Route::get('/{id}', 'CustomerController@show');
+    Route::post('/', 'CustomerController@store');
+    Route::put('/{id}', 'CustomerController@update');
+    Route::delete('/{id}', 'CustomerController@delete');
+});
+

@@ -65,7 +65,7 @@ class CustomerController extends Controller
         $customer->delete();
 
         return response()->json([
-            'status' => 'Success deleted customer'
+            'status' => "Success deleted customer data with id=$id"
         ]);
     }
 }

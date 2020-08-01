@@ -14,6 +14,13 @@ class Rental extends JsonResource
      */
     public function toArray($request)
     {
-        return parent::toArray($request);
+        $parent =  parent::toArray($request);
+        $data["customer"] = $this->Customer();
+        $data["car"] = $this->Car();
+        $data = array_merge($parent, $data);
+
+        return [
+            "data" => $data
+        ];
     }
 }

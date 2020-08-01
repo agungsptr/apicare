@@ -68,7 +68,7 @@ class UserController extends Controller
         $user->delete();
 
         return response()->json([
-            'status' => 'Success deleted user'
+            "status" => "Success deleted user data with id=$id"
         ]);
     }
 }

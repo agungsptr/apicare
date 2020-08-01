@@ -65,7 +65,7 @@ class CarController extends Controller
         $car->delete();
 
         return response()->json([
-            'status' => 'Success deleted car'
+            'status' => "Success deleted car data with id=$id"
         ]);
     }
 }

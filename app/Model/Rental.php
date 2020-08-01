@@ -12,11 +12,11 @@ class Rental extends Model
 
     public function Customer()
     {
-        return $this->belongsTo('App\Customer');
+        return Customer::find($this->customer_id);
     }
 
     public function Car()
     {
-        return $this->hasOne('App\Car');
+        return Car::find($this->car_id);
     }
 }

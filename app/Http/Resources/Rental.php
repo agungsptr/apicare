@@ -19,8 +19,6 @@ class Rental extends JsonResource
         $data["car"] = $this->Car();
         $data = array_merge($parent, $data);
 
-        return [
-            "data" => $data
-        ];
+        return $data;
     }
 }

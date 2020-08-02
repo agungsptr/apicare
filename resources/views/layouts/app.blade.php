@@ -83,7 +83,7 @@
                 <ul>
                     <li><a href="{{ secure_url('/') }}">Home</a></li>
                     <li><a href="{{ secure_url('/#about') }}">About</a></li>
-                    <li class="drop-down"><a href="{{ secure_url('/#services') }}">Documentation</a>
+                    <li class="drop-down"><a href="">Documentation</a>
                         <ul>
                             <li><a href="{{ secure_url('/doc/user') }}">User</a></li>
                             <li><a href="{{ secure_url('/doc/customer') }}">Customer</a></li>

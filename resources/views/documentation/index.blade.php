@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('getstarted')
-<li class="get-started"><a href="{{ url('/#about') }}">Get Started</a></li>
+<li class="get-started"><a href="{{ secure_url('/#about') }}">Get Started</a></li>
 @endsection
 
 @section('content')
@@ -89,7 +89,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon"><i class="bx bx-user"></i></div>
-                        <h4 class="title"><a href="{{ url('/doc/user') }}">User</a></h4>
+                        <h4 class="title"><a href="{{ secure_url('/doc/user') }}">User</a></h4>
                         <p class="description">Menyediakan data User atau admin dari rental mobil</p>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon"><i class="bx bx-group"></i></div>
-                        <h4 class="title"><a href="{{ url('/doc/customer') }}">Customer</a></h4>
+                        <h4 class="title"><a href="{{ secure_url('/doc/customer') }}">Customer</a></h4>
                         <p class="description">Menyediakan data Customer atau penyewa mobil</p>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon"><i class="bx bx-car"></i></div>
-                        <h4 class="title"><a href="{{ url('/doc/car') }}">Car</a></h4>
+                        <h4 class="title"><a href="{{ secure_url('/doc/car') }}">Car</a></h4>
                         <p class="description">Menyediakan data Car atau mobil yang tersedia</p>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon"><i class="bx bx-book-alt"></i></div>
-                        <h4 class="title"><a href="{{ url('/doc/rental') }}">Rental</a></h4>
+                        <h4 class="title"><a href="{{ secure_url('/doc/rental') }}">Rental</a></h4>
                         <p class="description">Menyediakan data Rental atau penyewaan yang tersedia</p>
                     </div>
                 </div>

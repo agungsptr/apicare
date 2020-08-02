@@ -141,10 +141,12 @@
 
     <script>
         function copyFunction() {
+            document.getElementById("base_url").disabled = false;
             var copyText = document.getElementById("base_url");
             copyText.select();
             copyText.setSelectionRange(0, 99999)
             document.execCommand("copy");
+            document.getElementById("base_url").disabled = true;
             alert("Berhasil dicopy");
         }
     </script>

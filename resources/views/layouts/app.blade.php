@@ -22,8 +22,9 @@
     <link href="{{ asset('vendor/Vesperr/assets/vendor/icofont/icofont.min.css', true) }}" rel="stylesheet">
     <link href="{{ asset('vendor/Vesperr/assets/vendor/remixicon/remixicon.css', true) }}" rel="stylesheet">
     <link href="{{ asset('vendor/Vesperr/assets/vendor/boxicons/css/boxicons.min.css', true) }}" rel="stylesheet">
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/owl.carousel/assets/owl.carousel.min.css', true) }}" rel="stylesheet">
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.css', true) }}"  rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/owl.carousel/assets/owl.carousel.min.css', true) }}"
+        rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.css', true) }}" rel="stylesheet">
     <link href="{{ asset('vendor/Vesperr/assets/vendor/aos/aos.css', true) }}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
@@ -75,11 +76,7 @@
         <div class="container d-flex align-items-center">
 
             <div class="logo mr-auto">
-                <div class="row">
-                    <a href="{{ secure_url('/') }}"><img src="{{ asset('vendor/Vesperr/assets/img/logo.png', true) }}" alt=""
-                            class="img-fluid mr-2"></a>
-                    <h1 class="text-light"><a href="{{ secure_url('/') }}"><span>Apicare</span></a></h1>
-                </div>
+                <h1 class="text-light"><a href="{{ secure_url('/') }}"><span>Apicare</span></a></h1>
             </div>
 
             <nav class="nav-menu d-none d-lg-block">

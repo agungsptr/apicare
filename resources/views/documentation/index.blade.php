@@ -106,7 +106,7 @@
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon"><i class="bx bx-car"></i></div>
                         <h4 class="title"><a href="{{ url('/doc/car') }}">Car</a></h4>
-                        <p class="description">Menyediakan data Car atau mobil</p>
+                        <p class="description">Menyediakan data Car atau mobil yang tersedia</p>
                     </div>
                 </div>
 
@@ -114,7 +114,7 @@
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon"><i class="bx bx-book-alt"></i></div>
                         <h4 class="title"><a href="{{ url('/doc/rental') }}">Rental</a></h4>
-                        <p class="description">Menyediakan data Rental atau penyewaan</p>
+                        <p class="description">Menyediakan data Rental atau penyewaan yang tersedia</p>
                     </div>
                 </div>
 

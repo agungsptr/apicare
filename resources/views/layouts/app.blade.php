@@ -24,7 +24,7 @@
     <link href="{{ asset('vendor/Vesperr/assets/vendor/remixicon/remixicon.css', true) }}" rel="stylesheet">
     <link href="{{ asset('vendor/Vesperr/assets/vendor/boxicons/css/boxicons.min.css', true) }}" rel="stylesheet">
     <link href="{{ asset('vendor/Vesperr/assets/vendor/owl.carousel/assets/owl.carousel.min.css', true) }}" rel="stylesheet">
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.css', true) }}"  rel="stylesheet'>
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.css', true) }}"  rel="stylesheet">
     <link href="{{ asset('vendor/Vesperr/assets/vendor/aos/aos.css', true) }}" rel="stylesheet">
 
     <!-- Template Main CSS File -->

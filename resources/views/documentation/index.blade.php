@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('getstarted')
+<li class="get-started"><a href="{{ url('/#about') }}">Get Started</a></li>
+@endsection
+
 @section('content')
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
@@ -30,8 +34,8 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-6"></div>
                 <div class="col-lg-4 col-md-4 col-6">
-                    <img src="{{ asset('vendor/Vesperr/assets/img/clients/ubg.png') }}" class="img-fluid" alt="" data-aos="zoom-in"
-                        data-aos-delay="200">
+                    <img src="{{ asset('vendor/Vesperr/assets/img/clients/ubg.png') }}" class="img-fluid" alt=""
+                        data-aos="zoom-in" data-aos-delay="200">
                 </div>
                 <div class="col-lg-4 col-md-4 col-6"></div>
             </div>
@@ -85,7 +89,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon"><i class="bx bx-user"></i></div>
-                        <h4 class="title"><a href="">User</a></h4>
+                        <h4 class="title"><a href="{{ url('/doc/user') }}">User</a></h4>
                         <p class="description">Menyediakan data User atau admin dari rental mobil</p>
                     </div>
                 </div>
@@ -93,7 +97,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                         <div class="icon"><i class="bx bx-group"></i></div>
-                        <h4 class="title"><a href="">Customer</a></h4>
+                        <h4 class="title"><a href="{{ url('/doc/customer') }}">Customer</a></h4>
                         <p class="description">Menyediakan data Customer atau penyewa mobil</p>
                     </div>
                 </div>
@@ -101,7 +105,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                         <div class="icon"><i class="bx bx-car"></i></div>
-                        <h4 class="title"><a href="">Car</a></h4>
+                        <h4 class="title"><a href="{{ url('/doc/car') }}">Car</a></h4>
                         <p class="description">Menyediakan data Car atau mobil</p>
                     </div>
                 </div>
@@ -109,7 +113,7 @@
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                         <div class="icon"><i class="bx bx-book-alt"></i></div>
-                        <h4 class="title"><a href="">Rental</a></h4>
+                        <h4 class="title"><a href="{{ url('/doc/rental') }}">Rental</a></h4>
                         <p class="description">Menyediakan data Rental atau penyewaan</p>
                     </div>
                 </div>

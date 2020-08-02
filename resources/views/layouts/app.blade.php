@@ -19,12 +19,12 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/icofont/icofont.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/bootstrap/css/bootstrap.min.css', true) }}" rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/icofont/icofont.min.css', true) }}" rel="stylesheet">
     <link href="{{ asset('vendor/Vesperr/assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/Vesperr/assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
     <link href="{{ asset('vendor/Vesperr/assets/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.css" rel="stylesheet') }}">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.css') }}"  rel="stylesheet'>
     <link href="{{ asset('vendor/Vesperr/assets/vendor/aos/aos.css') }}" rel="stylesheet">
 
     <!-- Template Main CSS File -->

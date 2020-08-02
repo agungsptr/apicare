@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-                <img src="{{ asset('vendor/Vesperr/assets/img/hero-img.png') }}" class="img-fluid animated" alt="">
+                <img src="{{ asset('vendor/Vesperr/assets/img/hero-img.png', true) }}" class="img-fluid animated" alt="">
             </div>
         </div>
     </div>
@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-6"></div>
                 <div class="col-lg-4 col-md-4 col-6">
-                    <img src="{{ asset('vendor/Vesperr/assets/img/clients/ubg.png') }}" class="img-fluid" alt=""
+                    <img src="{{ asset('vendor/Vesperr/assets/img/clients/ubg.png' , true) }}" class="img-fluid" alt=""
                         data-aos="zoom-in" data-aos-delay="200">
                 </div>
                 <div class="col-lg-4 col-md-4 col-6"></div>
@@ -137,7 +137,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="100">
                         <div class="member-img">
-                            <img src="{{ asset('vendor/Vesperr/assets/img/team/1.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('vendor/Vesperr/assets/img/team/1.png', true) }}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href="https://twitter.com/_agungsptr" class="twitter"><i
                                         class="icofont-twitter"></i></a>
@@ -153,7 +153,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="200">
                         <div class="member-img">
-                            <img src="{{ asset('vendor/Vesperr/assets/img/team/2.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('vendor/Vesperr/assets/img/team/2.jpg', true) }}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href="https://web.facebook.com/people/Agung-Saputra/100010969991694"
                                     class="facebook"><i class="icofont-facebook"></i></a>
@@ -169,7 +169,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="300">
                         <div class="member-img">
-                            <img src="{{ asset('vendor/Vesperr/assets/img/team/3.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('vendor/Vesperr/assets/img/team/3.jpg', true) }}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href="https://www.instagram.com/__agungsptr/" class="instagram"><i
                                         class="icofont-instagram"></i></a>
@@ -185,7 +185,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="400">
                         <div class="member-img">
-                            <img src="{{ asset('vendor/Vesperr/assets/img/team/4.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('vendor/Vesperr/assets/img/team/4.jpg', true) }}" class="img-fluid" alt="">
                             <div class="social">
                                 <a href="https://www.linkedin.com/in/agung-eke-saputra/" class="linkedin"><i
                                         class="icofont-linkedin"></i></a>

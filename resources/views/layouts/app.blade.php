@@ -10,7 +10,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('vendor/Vesperr/assets/img/favicon.png') }}" rel="icon">
+    <link href="{{ asset('vendor/Vesperr/assets/img/favicon.png', true) }}" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -19,16 +19,16 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/icofont/icofont.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.css') }}"  rel="stylesheet'>
-    <link href="{{ asset('vendor/Vesperr/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/bootstrap/css/bootstrap.min.css', true) }}" rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/icofont/icofont.min.css', true) }}" rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/remixicon/remixicon.css', true) }}" rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/boxicons/css/boxicons.min.css', true) }}" rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/owl.carousel/assets/owl.carousel.min.css', true) }}" rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.css', true) }}"  rel="stylesheet'>
+    <link href="{{ asset('vendor/Vesperr/assets/vendor/aos/aos.css', true) }}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="{{ asset('vendor/Vesperr/assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/Vesperr/assets/css/style.css', true) }}" rel="stylesheet">
 
     <style>
         .kepala-header {
@@ -77,7 +77,7 @@
 
             <div class="logo mr-auto">
                 <div class="row">
-                    <a href="{{ url('/') }}"><img src="{{ asset('vendor/Vesperr/assets/img/logo.png') }}" alt=""
+                    <a href="{{ url('/') }}"><img src="{{ asset('vendor/Vesperr/assets/img/logo.png', true) }}" alt=""
                             class="img-fluid mr-2"></a>
                     <h1 class="text-light"><a href="{{ url('/') }}"><span>Apicare</span></a></h1>
                 </div>
@@ -129,19 +129,19 @@
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="{{ asset('vendor/Vesperr/assets/vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('vendor/Vesperr/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('vendor/Vesperr/assets/vendor/jquery.easing/jquery.easing.min.js') }}"></script>
-    <script src="{{ asset('vendor/Vesperr/assets/vendor/php-email-form/validate.js') }}"></script>
-    <script src="{{ asset('vendor/Vesperr/assets/vendor/waypoints/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ asset('vendor/Vesperr/assets/vendor/counterup/counterup.min.js') }}"></script>
-    <script src="{{ asset('vendor/Vesperr/assets/vendor/owl.carousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('vendor/Vesperr/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.min.js') }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/vendor/jquery/jquery.min.js', true) }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/vendor/bootstrap/js/bootstrap.bundle.min.js', true) }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/vendor/jquery.easing/jquery.easing.min.js', true) }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/vendor/php-email-form/validate.js', true) }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/vendor/waypoints/jquery.waypoints.min.js', true) }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/vendor/counterup/counterup.min.js', true) }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/vendor/owl.carousel/owl.carousel.min.js', true) }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/vendor/isotope-layout/isotope.pkgd.min.js', true) }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.min.js', true) }}"></script>
     <script src="{{ asset('vendor/Vesperr/assets/vendor/aos/aos.js') }}"></script>
 
     <!-- Template Main JS File -->
-    <script src="{{ asset('vendor/Vesperr/assets/js/main.js') }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/js/main.js', true) }}"></script>
 
     <script>
         function copyFunction() {

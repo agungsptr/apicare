@@ -10,11 +10,12 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-11">
-                            <input class="form-control" type="text" id="base_url" value="https://apicare.herokuapp.com/api/" disabled>
+                        <div class="col-md mb-2">
+                            <input class="form-control" type="text" id="base_url"
+                                value="https://apicare.herokuapp.com/api/" disabled>
                         </div>
-                        <div class="col-1">
-                            <button onclick="copyFunction()" class="btn btn-primary btn-md">Copy</button>
+                        <div class="col col-md-1">
+                            <button onclick="copyFunction()" class="btn btn-primary btn-md float-right">Copy</button>
                         </div>
                     </div>
                 </div>
@@ -33,7 +34,7 @@
                     <p class="url"><span class="http-get">GET</span> /rental/{id}</p>
                     <div class="container mb-2">
                         <p>Method ini dapat digunakan untuk mengambil data rental berdasarkan id yang dimasukkan.</p>
-                        
+
                         <span class="small">Path Parameter</span>
                         <table class="table table-hover">
                             <tbody>
@@ -49,7 +50,7 @@
                     <p class="url"><span class="http-post">POST</span> /rental</p>
                     <div class="container mb-2">
                         <p>Method ini dapat digunakan untuk menambahkan data rental.</p>
-                       
+
                         <span class="small">Query String</span>
                         <table class="table table-hover">
                             <tbody>
@@ -70,13 +71,15 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="small">*Untuk query string durasi yang diinputkan adalah lama penyewaan dalam satuan hari</p>
+                        <p class="small">*Untuk query string durasi yang diinputkan adalah lama penyewaan dalam satuan
+                            hari</p>
                     </div>
 
                     <p class="url"><span class="http-put">PUT</span> /rental/{id}</p>
                     <div class="container mb-2">
-                        <p>Method ini dapat digunakan untuk mengupdate atau merubah data rental berdasarkan id yang dimasukkan.</p>
-                         
+                        <p>Method ini dapat digunakan untuk mengupdate atau merubah data rental berdasarkan id yang
+                            dimasukkan.</p>
+
                         <span class="small">Path Parameter</span>
                         <table class="table table-hover">
                             <tbody>
@@ -108,13 +111,14 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="small">*Untuk query string durasi yang diinputkan adalah lama penyewaan dalam satuan hari</p>
+                        <p class="small">*Untuk query string durasi yang diinputkan adalah lama penyewaan dalam satuan
+                            hari</p>
                     </div>
 
                     <p class="url"><span class="http-delete">DELETE</span> /rental/{id}</p>
                     <div class="container mb-2">
                         <p>Method ini dapat digunakan untuk menghapus data rental berdasarkan id yang dimasukkan.</p>
-                        
+
                         <span class="small">Path Parameter</span>
                         <table class="table table-hover">
                             <tbody>

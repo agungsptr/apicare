@@ -10,11 +10,12 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-11">
-                            <input class="form-control" type="text" id="base_url" value="https://apicare.herokuapp.com/api/" disabled>
-                        </div>
-                        <div class="col-1">
-                            <button onclick="copyFunction()" class="btn btn-primary btn-md">Copy</button>
+                        <div class="col-md mb-2">
+                            <input class="form-control" type="text" id="base_url"
+                                value="https://apicare.herokuapp.com/api/" disabled>
+                            </div>
+                            <div class="col col-md-1">
+                                <button onclick="copyFunction()" class="btn btn-primary btn-md float-right">Copy</button>
                         </div>
                     </div>
                 </div>

@@ -10,11 +10,12 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-11">
-                            <input class="form-control" type="text" id="base_url" value="https://apicare.herokuapp.com/api/" disabled>
+                        <div class="col-md mb-2">
+                            <input class="form-control" type="text" id="base_url"
+                                value="https://apicare.herokuapp.com/api/" disabled>
                         </div>
-                        <div class="col-1">
-                            <button onclick="copyFunction()" class="btn btn-primary btn-md">Copy</button>
+                        <div class="col col-md-1">
+                            <button onclick="copyFunction()" class="btn btn-primary btn-md float-right">Copy</button>
                         </div>
                     </div>
                 </div>
@@ -26,7 +27,7 @@
                 </div>
                 <div class="card-body">
                     <p class="url"><span class="http-get">GET</span> /customer</p>
-                    
+
                     <div class="container mb-2">
                         <p>Method ini dapat digunakan untuk mengambil semua data customer yang ada.</p>
                     </div>
@@ -34,7 +35,7 @@
                     <p class="url"><span class="http-get">GET</span> /customer/{id}</p>
                     <div class="container mb-2">
                         <p>Method ini dapat digunakan untuk mengambil data customer berdasarkan id yang dimasukkan.</p>
-                        
+
                         <span class="small">Path Parameter</span>
                         <table class="table table-hover">
                             <tbody>
@@ -50,7 +51,7 @@
                     <p class="url"><span class="http-post">POST</span> /customer</p>
                     <div class="container mb-2">
                         <p>Method ini dapat digunakan untuk menambahkan data customer.</p>
-                       
+
                         <span class="small">Query String</span>
                         <table class="table table-hover">
                             <tbody>
@@ -80,8 +81,9 @@
 
                     <p class="url"><span class="http-put">PUT</span> /customer/{id}</p>
                     <div class="container mb-2">
-                        <p>Method ini dapat digunakan untuk mengupdate atau merubah data customer berdasarkan id yang dimasukkan.</p>
-                         
+                        <p>Method ini dapat digunakan untuk mengupdate atau merubah data customer berdasarkan id yang
+                            dimasukkan.</p>
+
                         <span class="small">Path Parameter</span>
                         <table class="table table-hover">
                             <tbody>
@@ -123,7 +125,7 @@
                     <p class="url"><span class="http-delete">DELETE</span> /customer/{id}</p>
                     <div class="container mb-2">
                         <p>Method ini dapat digunakan untuk menghapus data customer berdasarkan id yang dimasukkan.</p>
-                        
+
                         <span class="small">Path Parameter</span>
                         <table class="table table-hover">
                             <tbody>

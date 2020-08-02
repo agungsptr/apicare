@@ -89,6 +89,7 @@
                             <li><a href="{{ secure_url('/doc/customer') }}">Customer</a></li>
                             <li><a href="{{ secure_url('/doc/car') }}">Car</a></li>
                             <li><a href="{{ secure_url('/doc/rental') }}">Rental</a></li>
+                            <li><a href="{{ asset('/documentation/Apicare-Documentation.pdf') }}">Download Documentation (Pdf)</a></li>
                         </ul>
                     </li>
                     <li><a href="{{ secure_url('/#team') }}">Team</a></li>

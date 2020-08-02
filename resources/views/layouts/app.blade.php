@@ -76,26 +76,26 @@
 
             <div class="logo mr-auto">
                 <div class="row">
-                    <a href="{{ url('/') }}"><img src="{{ asset('vendor/Vesperr/assets/img/logo.png', true) }}" alt=""
+                    <a href="{{ secure_url('/') }}"><img src="{{ asset('vendor/Vesperr/assets/img/logo.png', true) }}" alt=""
                             class="img-fluid mr-2"></a>
-                    <h1 class="text-light"><a href="{{ url('/') }}"><span>Apicare</span></a></h1>
+                    <h1 class="text-light"><a href="{{ secure_url('/') }}"><span>Apicare</span></a></h1>
                 </div>
             </div>
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li><a href="{{ url('/') }}">Home</a></li>
-                    <li><a href="{{ url('/#about') }}">About</a></li>
-                    <li class="drop-down"><a href="{{ url('/#services') }}">Documentation</a>
+                    <li><a href="{{ secure_url('/') }}">Home</a></li>
+                    <li><a href="{{ secure_url('/#about') }}">About</a></li>
+                    <li class="drop-down"><a href="{{ secure_url('/#services') }}">Documentation</a>
                         <ul>
-                            <li><a href="{{ url('/doc/user') }}">User</a></li>
-                            <li><a href="{{ url('/doc/customer') }}">Customer</a></li>
-                            <li><a href="{{ url('/doc/car') }}">Car</a></li>
-                            <li><a href="{{ url('/doc/rental') }}">Rental</a></li>
+                            <li><a href="{{ secure_url('/doc/user') }}">User</a></li>
+                            <li><a href="{{ secure_url('/doc/customer') }}">Customer</a></li>
+                            <li><a href="{{ secure_url('/doc/car') }}">Car</a></li>
+                            <li><a href="{{ secure_url('/doc/rental') }}">Rental</a></li>
                         </ul>
                     </li>
-                    <li><a href="{{ url('/#team') }}">Team</a></li>
-                    <li><a href="{{ url('/#contact') }}">Contact</a></li>
+                    <li><a href="{{ secure_url('/#team') }}">Team</a></li>
+                    <li><a href="{{ secure_url('/#contact') }}">Contact</a></li>
 
                     @yield('getstarted')
                 </ul>

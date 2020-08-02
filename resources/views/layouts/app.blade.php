@@ -11,7 +11,6 @@
 
     <!-- Favicons -->
     <link href="{{ asset('vendor/Vesperr/assets/img/favicon.png', true) }}" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -138,7 +137,7 @@
     <script src="{{ asset('vendor/Vesperr/assets/vendor/owl.carousel/owl.carousel.min.js', true) }}"></script>
     <script src="{{ asset('vendor/Vesperr/assets/vendor/isotope-layout/isotope.pkgd.min.js', true) }}"></script>
     <script src="{{ asset('vendor/Vesperr/assets/vendor/venobox/venobox.min.js', true) }}"></script>
-    <script src="{{ asset('vendor/Vesperr/assets/vendor/aos/aos.js') }}"></script>
+    <script src="{{ asset('vendor/Vesperr/assets/vendor/aos/aos.js', true) }}"></script>
 
     <!-- Template Main JS File -->
     <script src="{{ asset('vendor/Vesperr/assets/js/main.js', true) }}"></script>
